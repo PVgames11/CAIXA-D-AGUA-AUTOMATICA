@@ -5,7 +5,7 @@ Este projeto apresenta o desenvolvimento de um sistema inteligente de monitorame
 
 A solução permite acompanhar, em tempo real, o nível de água da caixa, visualizar o volume disponível por meio de uma interface web embarcada e realizar o controle automático ou manual da bomba, garantindo maior eficiência operacional e segurança no abastecimento.
 
-Arquitetura do Sistema
+# Arquitetura do Sistema
 
 O sistema é composto pelos seguintes elementos:
 
@@ -21,7 +21,7 @@ Comunicação via rede Wi-Fi local
 
 Atualmente, o acesso à interface web é restrito a dispositivos conectados à mesma rede Wi-Fi da ESP32, utilizando o endereço IP local atribuído ao microcontrolador.
 
-Funcionalidades
+# Funcionalidades
 
 Medição contínua do nível de água da caixa
 
@@ -45,13 +45,13 @@ Indicação do estado da bomba
 
 Controles manuais para ligar e desligar a bomba
 
-Lógica de Controle
+# Lógica de Controle
 
 O sensor ultrassônico realiza a leitura da distância até a superfície da água. A partir dessa medida, o sistema calcula a altura da lâmina de água, o volume total presente na caixa e o percentual de ocupação.
 
 Com base nesses dados, a bomba é controlada automaticamente, respeitando os limites mínimos e máximos definidos. O modo de manutenção, quando ativado, tem prioridade sobre qualquer outro comando, garantindo que a bomba permaneça desligada independentemente do nível da água.
 
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 ESP32
 
@@ -65,14 +65,14 @@ Wi-Fi (WebServer embarcado)
 
 HTML e CSS para interface web
 
-Acesso ao Sistema
+# Acesso ao Sistema
 
 O sistema pode ser acessado através de um navegador web, utilizando o endereço IP local da ESP32.
 
 Observação:
 Nesta versão, o acesso é restrito à rede local. Dispositivos externos ou redes diferentes não conseguem acessar a interface.
 
-Evolução do Projeto
+# Evolução do Projeto
 
 Este projeto foi desenvolvido com foco em escalabilidade e evolução tecnológica. As próximas etapas previstas incluem:
 
@@ -86,7 +86,7 @@ Implementação de autenticação e controle de usuários
 
 Essas melhorias transformarão o sistema em uma solução completa de Internet das Coisas (IoT).
 
-Aplicações
+# Aplicações
 
 Residências
 
@@ -100,12 +100,12 @@ Projetos educacionais e acadêmicos
 
 Estudos de automação e IoT
 
-Autor
+# Autor
 
 Paulo Vitor Silva Quintanilha
 Bacharel em Ciência da Computação
 Área de atuação: Automação, Robótica, Internet das Coisas e Sistemas Inteligentes
 
-Licença
+# Licença
 
 Este projeto é de livre uso para fins educacionais e experimentais. Ajustes e expansões podem ser realizados conforme a necessidade do usuário.
