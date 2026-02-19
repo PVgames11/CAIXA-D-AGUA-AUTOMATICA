@@ -19,8 +19,8 @@ bool bombaLigada = false;
 bool manutencao = false;
 
 // --- Configuração WiFi ---
-const char* ssid = "QUINTANILHA";
-const char* pass = "26340685";
+const char* ssid = "xxxxxxxxx";
+const char* pass = "xxxxxxxx";
 
 WebServer server(80);
 float percentual = 0.0;
